@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18222306238CCC8D00E26193 /* KJBleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182222FC238CCC8C00E26193 /* KJBleSDK.framework */; };
+		1822230B238CCC8D00E26193 /* KJBleSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822230A238CCC8D00E26193 /* KJBleSDKTests.m */; };
+		18222318238CCEA900E26193 /* KJBleSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 18222316238CCEA900E26193 /* KJBleSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18222319238CCEA900E26193 /* KJBleSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222317238CCEA900E26193 /* KJBleSDK.m */; };
+		1822231D238CCFA500E26193 /* KJCentralManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822231B238CCFA500E26193 /* KJCentralManger.m */; };
+		1822231E238CCFA500E26193 /* KJCentralManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1822231C238CCFA500E26193 /* KJCentralManger.h */; };
+		18222326238CD0B700E26193 /* NSString+KJExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222324238CD0B700E26193 /* NSString+KJExtention.m */; };
+		18222327238CD0B700E26193 /* NSString+KJExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 18222325238CD0B700E26193 /* NSString+KJExtention.h */; };
+		1822232E238CF33500E26193 /* KJBleSDKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1822232C238CF33500E26193 /* KJBleSDKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1822232F238CF33500E26193 /* KJBleSDKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822232D238CF33500E26193 /* KJBleSDKObject.m */; };
+		18222332238D19E600E26193 /* KJRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18222330238D19E600E26193 /* KJRequestManager.h */; };
+		18222333238D19E600E26193 /* KJRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222331238D19E600E26193 /* KJRequestManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18222307238CCC8D00E26193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182222F3238CCC8C00E26193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182222FB238CCC8C00E26193;
+			remoteInfo = KJBleSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182222FC238CCC8C00E26193 /* KJBleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KJBleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18222300238CCC8C00E26193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18222305238CCC8D00E26193 /* KJBleSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJBleSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822230A238CCC8D00E26193 /* KJBleSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJBleSDKTests.m; sourceTree = "<group>"; };
+		1822230C238CCC8D00E26193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18222316238CCEA900E26193 /* KJBleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJBleSDK.h; sourceTree = "<group>"; };
+		18222317238CCEA900E26193 /* KJBleSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJBleSDK.m; sourceTree = "<group>"; };
+		1822231B238CCFA500E26193 /* KJCentralManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCentralManger.m; sourceTree = "<group>"; };
+		1822231C238CCFA500E26193 /* KJCentralManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCentralManger.h; sourceTree = "<group>"; };
+		18222324238CD0B700E26193 /* NSString+KJExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KJExtention.m"; sourceTree = "<group>"; };
+		18222325238CD0B700E26193 /* NSString+KJExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KJExtention.h"; sourceTree = "<group>"; };
+		1822232C238CF33500E26193 /* KJBleSDKObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJBleSDKObject.h; sourceTree = "<group>"; };
+		1822232D238CF33500E26193 /* KJBleSDKObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJBleSDKObject.m; sourceTree = "<group>"; };
+		18222330238D19E600E26193 /* KJRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJRequestManager.h; sourceTree = "<group>"; };
+		18222331238D19E600E26193 /* KJRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJRequestManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182222F9238CCC8C00E26193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18222302238CCC8D00E26193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18222306238CCC8D00E26193 /* KJBleSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182222F2238CCC8C00E26193 = {
+			isa = PBXGroup;
+			children = (
+				182222FE238CCC8C00E26193 /* KJBleSDK */,
+				18222309238CCC8D00E26193 /* KJBleSDKTests */,
+				182222FD238CCC8C00E26193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182222FD238CCC8C00E26193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182222FC238CCC8C00E26193 /* KJBleSDK.framework */,
+				18222305238CCC8D00E26193 /* KJBleSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182222FE238CCC8C00E26193 /* KJBleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18222300238CCC8C00E26193 /* Info.plist */,
+				18222316238CCEA900E26193 /* KJBleSDK.h */,
+				18222317238CCEA900E26193 /* KJBleSDK.m */,
+				1822232C238CF33500E26193 /* KJBleSDKObject.h */,
+				1822232D238CF33500E26193 /* KJBleSDKObject.m */,
+				18222323238CD08300E26193 /* Catagorys */,
+				1822231A238CCF8200E26193 /* BLE */,
+			);
+			path = KJBleSDK;
+			sourceTree = "<group>";
+		};
+		18222309238CCC8D00E26193 /* KJBleSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				1822230A238CCC8D00E26193 /* KJBleSDKTests.m */,
+				1822230C238CCC8D00E26193 /* Info.plist */,
+			);
+			path = KJBleSDKTests;
+			sourceTree = "<group>";
+		};
+		1822231A238CCF8200E26193 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1822231C238CCFA500E26193 /* KJCentralManger.h */,
+				1822231B238CCFA500E26193 /* KJCentralManger.m */,
+				18222330238D19E600E26193 /* KJRequestManager.h */,
+				18222331238D19E600E26193 /* KJRequestManager.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		18222323238CD08300E26193 /* Catagorys */ = {
+			isa = PBXGroup;
+			children = (
+				18222325238CD0B700E26193 /* NSString+KJExtention.h */,
+				18222324238CD0B700E26193 /* NSString+KJExtention.m */,
+			);
+			path = Catagorys;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		182222F7238CCC8C00E26193 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18222332238D19E600E26193 /* KJRequestManager.h in Headers */,
+				18222318238CCEA900E26193 /* KJBleSDK.h in Headers */,
+				1822232E238CF33500E26193 /* KJBleSDKObject.h in Headers */,
+				1822231E238CCFA500E26193 /* KJCentralManger.h in Headers */,
+				18222327238CD0B700E26193 /* NSString+KJExtention.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		182222FB238CCC8C00E26193 /* KJBleSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18222310238CCC8D00E26193 /* Build configuration list for PBXNativeTarget "KJBleSDK" */;
+			buildPhases = (
+				182222F7238CCC8C00E26193 /* Headers */,
+				182222F8238CCC8C00E26193 /* Sources */,
+				182222F9238CCC8C00E26193 /* Frameworks */,
+				182222FA238CCC8C00E26193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJBleSDK;
+			productName = KJBleSDK;
+			productReference = 182222FC238CCC8C00E26193 /* KJBleSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18222304238CCC8D00E26193 /* KJBleSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18222313238CCC8D00E26193 /* Build configuration list for PBXNativeTarget "KJBleSDKTests" */;
+			buildPhases = (
+				18222301238CCC8D00E26193 /* Sources */,
+				18222302238CCC8D00E26193 /* Frameworks */,
+				18222303238CCC8D00E26193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18222308238CCC8D00E26193 /* PBXTargetDependency */,
+			);
+			name = KJBleSDKTests;
+			productName = KJBleSDKTests;
+			productReference = 18222305238CCC8D00E26193 /* KJBleSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182222F3238CCC8C00E26193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CoderYS;
+				TargetAttributes = {
+					182222FB238CCC8C00E26193 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18222304238CCC8D00E26193 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 182222F6238CCC8C00E26193 /* Build configuration list for PBXProject "KJBleSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 182222F2238CCC8C00E26193;
+			productRefGroup = 182222FD238CCC8C00E26193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182222FB238CCC8C00E26193 /* KJBleSDK */,
+				18222304238CCC8D00E26193 /* KJBleSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182222FA238CCC8C00E26193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18222303238CCC8D00E26193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182222F8238CCC8C00E26193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18222333238D19E600E26193 /* KJRequestManager.m in Sources */,
+				1822232F238CF33500E26193 /* KJBleSDKObject.m in Sources */,
+				18222326238CD0B700E26193 /* NSString+KJExtention.m in Sources */,
+				1822231D238CCFA500E26193 /* KJCentralManger.m in Sources */,
+				18222319238CCEA900E26193 /* KJBleSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18222301238CCC8D00E26193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822230B238CCC8D00E26193 /* KJBleSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18222308238CCC8D00E26193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182222FB238CCC8C00E26193 /* KJBleSDK */;
+			targetProxy = 18222307238CCC8D00E26193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1822230E238CCC8D00E26193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1822230F238CCC8D00E26193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18222311238CCC8D00E26193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XR5C5B8X8L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KJBleSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangjia.KJBleSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18222312238CCC8D00E26193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XR5C5B8X8L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KJBleSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangjia.KJBleSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18222314238CCC8D00E26193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XR5C5B8X8L;
+				INFOPLIST_FILE = KJBleSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangjia.KJBleSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18222315238CCC8D00E26193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XR5C5B8X8L;
+				INFOPLIST_FILE = KJBleSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangjia.KJBleSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182222F6238CCC8C00E26193 /* Build configuration list for PBXProject "KJBleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822230E238CCC8D00E26193 /* Debug */,
+				1822230F238CCC8D00E26193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18222310238CCC8D00E26193 /* Build configuration list for PBXNativeTarget "KJBleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18222311238CCC8D00E26193 /* Debug */,
+				18222312238CCC8D00E26193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18222313238CCC8D00E26193 /* Build configuration list for PBXNativeTarget "KJBleSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18222314238CCC8D00E26193 /* Debug */,
+				18222315238CCC8D00E26193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182222F3238CCC8C00E26193 /* Project object */;
+}
